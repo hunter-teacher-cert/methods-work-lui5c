@@ -17,7 +17,7 @@ gives you a lot of information to write an HTML page.
 Here is an example of how you would make a simple website that says "Hello world!":
 ```HTML
 <html>
-  <head><title>My first website!</title>
+  <head><title>My first website!</title></head>
   <body>
     <h1>Hello world!</h1>
   </body>
