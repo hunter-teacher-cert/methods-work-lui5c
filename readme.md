@@ -1,6 +1,6 @@
 # Luis Collado SEDC 719 Work Repository
 
-[Link to this repo's website](https://methods-work-lui5c.hunter-teacher-cert.github.io)
+[Link to this repo's website](https://hunter-teacher-cert.github.io/methods-work-lui5c)
 
 ### List of things I need to include in this readme.md file:
 1. <s>a list</s>
