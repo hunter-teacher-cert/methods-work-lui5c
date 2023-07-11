@@ -1,12 +1,13 @@
 # Luis Collado SEDC 719 Work Repository
 
+[Link to this repo's website](methods-work-lui5c.hunter-teacher-cert.github.io)
+
 ### List of things I need to include in this readme.md file:
 1. <s>a list</s>
 2. <s>an image</s>
 3. <s>hyperlink with anchor text</s>
 4. <s>hyperlink without anchor text</s>
 5. <s>code block</s>
-
 
 [This website here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) provides a cheatsheet on markdown, and this website:
 
