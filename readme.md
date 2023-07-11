@@ -1,6 +1,6 @@
 # Luis Collado SEDC 719 Work Repository
 
-### List of things in this readme.md file:
+### List of things I need to include in this readme.md file:
 1. <s>a list</s>
 2. <s>an image</s>
 3. <s>hyperlink with anchor text</s>
