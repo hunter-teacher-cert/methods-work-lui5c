@@ -18,6 +18,9 @@ class Main {
  	*/
 	private static void swap(int[] array, int a, int b){
 		// your code here
+        int temp = array[a];
+        array[a] = array[b];
+        array[b] = temp;
 	}// end swap()
 
 	
@@ -43,14 +46,18 @@ class Main {
 	private static int getSmallestIndexBetweenXandY(int[] array, int x, int y){
 		// here, create a variable called minIndex that will store 
 		// the index of the smallest index.
-
+        int minIndex = x;
 		// write a loop that will compare the value 
 		// of every element FROM index x TO y with the value
 		// of the element at minIndex. if the loop finds an 
 		// element that is smaller than the element at minIndex,
 		// it should overwrite minIndex with that element's index.
 
-		// .... delete me and write a loop here...
+		for (int i = x; i < y; i++){
+            if (array[i] < array[minIndex]){
+                minIndex = i;
+            }
+        }
 	
 		return minIndex;//
 	} // end getSmallestIndex
@@ -87,8 +94,8 @@ class Main {
 
  		*/
 
-		boolean testPart1 = false;
-		boolean testPart2 = false;
+		boolean testPart1 = true;
+		boolean testPart2 = true;
 
 		
 		/* DON'T TOUCH CODE BELOW HERE */
