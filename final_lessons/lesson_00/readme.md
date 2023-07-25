@@ -4,4 +4,13 @@
 methods i'll use for lesson 00:
 live coding
 scaffolding
-I think the program complexity will still be relatively low, so I think each student should be doing their own coding. live coding will be demoing the modulo operator and reviewing accessing strings using charAt OR making a String[] array of one-letter Strings and accessing that array. (ed
+I think the program complexity will still be relatively low, so I think each student should be doing their own coding. live coding will be demoing the modulo operator and reviewing accessing strings using charAt OR making a String[] array of one-letter Strings and accessing that array.
+
+## Learning Goal
+SWBAT confidently navigate 0-based indexing to reference, manipulate, and create their own strings. 
+SWBAT apply their understandings of the Caesar cipher and String indexing to create a program
+that encrypts plaintexts under a customizable Caesar cipher.
+
+
+### Small warm-up activity
+Students will be asked to create a program that takes a String, <code>plaintext</code>, and prints each character on its own line.
