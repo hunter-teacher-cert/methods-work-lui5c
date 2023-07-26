@@ -13,11 +13,28 @@ that encrypts plaintexts under a customizable Caesar cipher.
 
 
 ### Small warm-up activity
-Students will be asked to create a program that takes a String, <code>plaintext</code>, and prints each character from that String on its own line.
+Students will be asked to create a program that takes a String, <code>plaintext</code>, and prints each character from that String on its own line. This hint will be on the screen:
+
+```java
+System.out.println("ABC".charAt(0)); // prints "C"
+```
 
 Early finishers can wrap this functionality in a function and pass plaintext to that function.
 
-Review warm-up activity together and make sure that students all have a minimum working example that does this. 
+Review warm-up activity together and make sure that students all have a minimum working example that does the required task.
+
+Completed code should resemble:
+```java
+public class Main{
+    public static void main(String[] args){
+        String plaintext = "hello world!";
+        
+        for (int i = 0; i < plaintext.length(); i++){
+            System.out.println(plaintext.charAt(i));
+        }
+    }
+}
+```
 
 ### Teacher delivered content
 Teacher showcases important stepping stones of the solution without showing the solution. Each example will include several practice examples that students must participate in.
