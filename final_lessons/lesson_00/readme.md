@@ -38,7 +38,48 @@ public class Main{
 
 ### Teacher delivered content
 Teacher showcases important stepping stones of the solution without showing the solution. Each example will include several practice examples that students must participate in.
-1. how a Caesar cipher works - (video)[https://www.youtube.com/watch?v=l6jqKRXSShI]
+1. how a Caesar cipher works - [video](https://www.youtube.com/watch?v=l6jqKRXSShI)
 2. <code>charAt()</code>
-3. casting to <code>int</code>
-4. showcase of working program 
+```java
+String a = "Acknowledgements";
+String b = "Moo";
+
+// how do I use a to print the letter k?
+
+// what will the line below print?
+System.out.println(b.charAt(b.length()-1));
+// what will happen if i run the line below?
+System.out.println(b.charAt(3));
+```
+3. <code>indexOf()</code>
+```java
+String a = "Acknowledgements";
+
+int myInt = a.indexOf("A"); // myInt = ?
+myInt += 10;                // myInt = ?
+char c = a.charAt(myInt);   // c = ?
+```
+4. showcase of working program - working code [here](https://replit.com/@LuisCollado1/lesson0001#Solution00.java)
+
+
+### Student-centered activity
+DELIVERABLE:
+A program that will shift each letter in a plaintext String by a certain amount of letters. It should be easy to change how many letters your program shifts by. You can assume that the shifts will only be between -25 and 25. Your program is only required to do one word each time that it is run.
+
+__Resources__:
+- [charAt()](https://www.w3schools.com/java/ref_string_charat.asp)
+- [indexOf()](https://www.w3schools.com/java/ref_string_indexof.asp)
+- [Java String methods](https://www.w3schools.com/java/java_ref_string.asp)
+- [Modulo](https://www.javatpoint.com/java-modulo)
+- [Caesar Cipher Video]([video](https://www.youtube.com/watch?v=l6jqKRXSShI))
+
+__How to test your code:__
+- shifting "a" by 1 should be "b"
+- shifting "b" by -1 should be "a"
+- shifting "a" by -1 should be "z"
+- plug your output back in as input and you should get your original input
+
+__Exceeding Expectations__:
+Have your program implement features seen in the example, such as:
+- create a REPL inside of your program, with a simple prompt
+- have your program be able to shift by any integer
