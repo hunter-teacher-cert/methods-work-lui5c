@@ -67,6 +67,12 @@ char c = a.charAt(myInt);   // c = ?
 DELIVERABLE:
 A program that will shift each letter in a plaintext String by a certain amount of letters. It should be easy to change how many letters your program shifts by. You can assume that the shifts will only be between -25 and 25. Your program is only required to do one word each time that it is run.
 
+__Tests Your Code Should Pass:__
+- shifting "a" by 1 should be "b"
+- shifting "b" by -1 should be "a"
+- shifting "a" by -1 should be "z"
+- plug your output back in as input and you should get your original input
+
 __Resources__:
 - [charAt()](https://www.w3schools.com/java/ref_string_charat.asp)
 - [indexOf()](https://www.w3schools.com/java/ref_string_indexof.asp)
@@ -74,13 +80,8 @@ __Resources__:
 - [Modulo](https://www.javatpoint.com/java-modulo)
 - [Caesar Cipher Video](https://www.youtube.com/watch?v=l6jqKRXSShI)
 
-__How to test your code:__
-- shifting "a" by 1 should be "b"
-- shifting "b" by -1 should be "a"
-- shifting "a" by -1 should be "z"
-- plug your output back in as input and you should get your original input
 
 __Exceeding Expectations__:
 Have your program implement features seen in the example, such as:
-- create a REPL inside of your program, with a simple prompt
+- a REPL inside of your program, with a simple prompt
 - have your program be able to shift by any integer
