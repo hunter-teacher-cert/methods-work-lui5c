@@ -8,6 +8,7 @@ I think the program complexity will still be relatively low, so I think each stu
 
 ## Learning Goal
 SWBAT confidently navigate 0-based indexing to reference, manipulate, and create their own strings. 
+
 SWBAT apply their understandings of the Caesar cipher and String indexing to create a program
 that encrypts plaintexts under a customizable Caesar cipher.
 
@@ -71,7 +72,7 @@ __Resources__:
 - [indexOf()](https://www.w3schools.com/java/ref_string_indexof.asp)
 - [Java String methods](https://www.w3schools.com/java/java_ref_string.asp)
 - [Modulo](https://www.javatpoint.com/java-modulo)
-- [Caesar Cipher Video]([video](https://www.youtube.com/watch?v=l6jqKRXSShI))
+- [Caesar Cipher Video](https://www.youtube.com/watch?v=l6jqKRXSShI)
 
 __How to test your code:__
 - shifting "a" by 1 should be "b"
