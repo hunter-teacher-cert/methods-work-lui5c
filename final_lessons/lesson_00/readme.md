@@ -12,12 +12,16 @@ SWBAT confidently navigate 0-based indexing to reference, manipulate, and create
 SWBAT apply their understandings of the Caesar cipher and String indexing to create a program
 that encrypts plaintexts under a customizable Caesar cipher.
 
+## Methods used
+- __method1__
+- __method2__
+
 
 ### Small warm-up activity
 Students will be asked to create a program that takes a String, <code>plaintext</code>, and prints each character from that String on its own line. This hint will be on the screen:
 
 ```java
-System.out.println("ABC".charAt(0)); // prints "C"
+System.out.println("ABC".charAt(0)); // prints "A"
 ```
 
 Early finishers can wrap this functionality in a function and pass plaintext to that function.
