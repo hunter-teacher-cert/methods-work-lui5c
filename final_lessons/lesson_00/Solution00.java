@@ -32,5 +32,22 @@ public class Solution00{
 			System.out.print(">");
 		}
 		in.close();
+            String alphabet = "abcdefghijklmnopqrstuvwxyz ";
+
+		String plaintext = "hello world";
+
+		int shift = 5;
+
+		for (int i = 0; i<plaintext.length(); i++){
+			System.out.println(plaintext.charAt(i));
+		}
+
+		for (int c = 0; c < plaintext.length(); c++){
+			char letter = plaintext.charAt(c);
+			int locationInAlphabet = alphabet.indexOf(letter);
+			int newLocationInAlphabet = (locationInAlphabet+shift) % alphabet.length();
+			char newLetter = alphabet.charAt(newLocationInAlphabet);
+			System.out.println(letter + " -> " + newLetter);
+		}
 	}
 }
