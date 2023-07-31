@@ -104,6 +104,12 @@ public static void main(String[] args){
 
 ## Student-Centered Activity
 
+- __Part 1: Code Tracing__ (5-10 mins)
+
+Students should get into groups and choose either fibonacci or factorial functions to represent visually. Diagrams should show each time a new function is called and show clearly when each function reaches its base case. 
+
+- __Part 2: Coding__ (rest of class / can be homework)
+
 DELIVERABLE:
 
 In a single file called Recursion.java, write three __recursive__ methods:
@@ -111,12 +117,23 @@ In a single file called Recursion.java, write three __recursive__ methods:
 1. __<code>factorial</code>__
 This function should implement the factorial function. <code>factorial</code> should return an int.
 ```java
-factorial(3) // prints "6"
-factorial(4) // prints "24"
-factorial(0) // prints "1"
+factorial(3) //  returns 6
+factorial(4) //  returns 24
+factorial(0) //  returns 1
 ```
 
-2. __<code>echoBack</code>__
+2. __<code>fibonacci</code>__
+This function should implement the Fibonacci sequence. The fibonacci sequence is a sequence of numbers where each number is found by adding the last two numbers in the sequence together. The first two numbers are 0 and 1. It goes 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...
+<code>fibonacci</code> should return an int.
+```java
+fibonacci(0) //  returns 0
+fibonacci(1) //  returns 1
+fibonacci(4) //  returns 3
+fibonacci(7) //  returns 13
+```
+
+
+3. __<code>echoBack</code>__
 This is the function from our warm up activity! It should behave exactly like the warm up activity specifies. Remember that Java has String.length() and String.substring(startIndex, endIndex) methods. 
 ```java
 echoBack("hello");
@@ -137,23 +154,18 @@ W
 */
 ```
 
-3. __<code>fibonacci</code>__
-This function should implement the Fibonacci sequence. The fibonacci sequence is a sequence of numbers where each number is found by adding the last two numbers in the sequence together. The first two numbers are 0 and 1. It goes 0, 1, 1, 2, 3, 5, 8, 13, 21, 44...
-<code>fibonacci</code> should return an int.
-```java
-fibonacci(0) // prints "0"
-fibonacci(1) // prints "1"
-fibonacci(4) // prints "3"
-fibonacci(7) // prints "13"
-```
 
 Early finishers can work on:
+1. <code>isPalindrome()</code> - recursively checks the ends and middle of a string to return <code>true</code> or <code>false</code>.
+2. <code>isLowercase()</code> - recursive function that tells you if every 
 
 
 
 ## Description of Intended Student Audience
-This lesson plan is intended for students towards the tail end of a 
+This lesson plan is intended for students at the end of AP CS A, when they are going to be learning recursion. 
 
 ## List of Methods Used and explanation why
+1. __Code Tracing__ - it's really important to be able to understand recursive functions visually, and also for teachers to know how students are conceptualizing recursion in their heads. Code Tracing is a great way for teachers to check in on and enrich students' understandings of recursion. The Code Tracing in this lesson also introduces the code that students will be required to implement, so it sets them up for success later by giving them a strong foundation upon which to write the implementation later. 
+2. __Group Work__ - since this is is a new concept that is not a new method, having students go back and forth and inquire about how recursive functions can be controlled so that they don't run forever is a great opportunity for group work. This lesson has students checking in with each other a lot and as a result makes sure no one is left in the dust on a concept that is so important to understand. 
 
 ## slides/content
