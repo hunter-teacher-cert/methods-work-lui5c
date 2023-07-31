@@ -1,9 +1,7 @@
 # Lesson 00
 2. Intended for students of an AP CS A class.
 3. Lesson 00 will be day 2 of arrays. On day 1 of arrays, we will have introduced and done proof-of-concept exit tickets for accessing indexes in arrays, initializing arrays, and doing simple for loops of arrays. students only need to be comfortable accessing elements in the array. the lesson will be a lab where we implement a caesar cipher using an array of letters.
-methods i'll use for lesson 00:
-live coding
-scaffolding
+
 I think the program complexity will still be relatively low, so I think each student should be doing their own coding. live coding will be demoing the modulo operator and reviewing accessing strings using charAt OR making a String[] array of one-letter Strings and accessing that array.
 
 ## Learning Goal
@@ -14,7 +12,7 @@ that encrypts plaintexts under a customizable Caesar cipher.
 
 ## Methods used
 - __Live Coding / Code Along__ - Students will code along to practice using each of the helper/introduced methods, such at charAt, indexOf, and review of accessing array elements using indices.
-- __method2__
+- __Test-Driven Development__ - in this lesson, students are introduced to the idea of defining the behavior of the function explicitly before even writing it. This is done by asking "what are some things that we _know_ this code should do?" At the beginning of the deliverable assignment, there is a list of tests that the code should pass. These aren't asserts, but just checks that students can do by printing the output. 
 
 
 ### Small warm-up activity
@@ -42,8 +40,11 @@ public class Main{
 ```
 
 ### Teacher delivered content
-Teacher showcases important stepping stones of the solution without showing the solution. Each example will include several practice examples that students must participate in.
+Teacher showcases important stepping stones of the solution without showing the solution. Each example will include several practice examples that students must participate in. 
 1. how a Caesar cipher works - [video](https://www.youtube.com/watch?v=l6jqKRXSShI)
+
+_for the rest, these are done in a blank java repl, in the main() function. Students are shown how the teacher will write a line, and then compile and test to see what happens._
+
 2. <code>charAt()</code>
 ```java
 String a = "Acknowledgements";
@@ -69,13 +70,13 @@ char c = a.charAt(myInt);   // c = ?
 
 ### Student-centered activity
 DELIVERABLE:
-A program that will shift each letter in a plaintext String by a certain amount of letters. It should be easy to change how many letters your program shifts by. You can assume that the shifts will only be between -25 and 25. Your program is only required to do one word each time that it is run.
+A program that will shift each letter in a plaintext String by a certain amount of letters, as in a Caesar cipher. It should be easy to change how many letters your program shifts by. You can assume that the shifts will only be between -25 and 25. Your program is only required to do one word each time that it is run.
 
 __Tests Your Code Should Pass:__
 - shifting "a" by 1 should be "b"
 - shifting "b" by -1 should be "a"
 - shifting "a" by -1 should be "z"
-- plug your output back in as input and you should get your original input
+- shifting "z" by 1 should be "a"
 
 __Resources__:
 - [charAt()](https://www.w3schools.com/java/ref_string_charat.asp)
