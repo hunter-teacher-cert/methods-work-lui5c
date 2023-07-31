@@ -65,7 +65,7 @@ int myInt = a.indexOf("A"); // myInt = ?
 myInt += 10;                // myInt = ?
 char c = a.charAt(myInt);   // c = ?
 ```
-4. showcase of working program - working code [here](https://replit.com/@LuisCollado1/lesson0001#Solution00.java)
+4. showcase of working program - working code [here](https://replit.com/@LuisCollado1/lesson0001#Solution00.java) and in repo.
 
 
 ### Student-centered activity
