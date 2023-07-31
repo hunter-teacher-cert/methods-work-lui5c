@@ -1,4 +1,4 @@
-# Lesson 0
+# Lesson 00
 2. Intended for students of an AP CS A class.
 3. Lesson 00 will be day 2 of arrays. On day 1 of arrays, we will have introduced and done proof-of-concept exit tickets for accessing indexes in arrays, initializing arrays, and doing simple for loops of arrays. students only need to be comfortable accessing elements in the array. the lesson will be a lab where we implement a caesar cipher using an array of letters.
 methods i'll use for lesson 00:
@@ -13,7 +13,7 @@ SWBAT apply their understandings of the Caesar cipher and String indexing to cre
 that encrypts plaintexts under a customizable Caesar cipher.
 
 ## Methods used
-- __method1__
+- __Live Coding / Code Along__ - Students will code along to practice using each of the helper/introduced methods, such at charAt, indexOf, and review of accessing array elements using indices.
 - __method2__
 
 
